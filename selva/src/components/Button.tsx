@@ -2,7 +2,7 @@ interface ButtonProps {
   handleClick: Function;
 }
 const Button = ({ handleClick }: ButtonProps) => {
-  return <button onClick={handleClick}> click count </button>;
+  return <button onClick={handleClick}> Increment Count </button>;
 };
 
 export default Button;
